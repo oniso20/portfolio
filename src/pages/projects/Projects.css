@@ -1,0 +1,23 @@
+.all-projects {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+}
+
+.all-projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 2rem 0 0 0;
+}
+
+.all-projects h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 1rem;
+}
+
+.all-projects .mini-nav {
+    margin-bottom: 1rem;
+}

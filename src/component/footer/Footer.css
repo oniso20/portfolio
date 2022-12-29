@@ -1,3 +1,12 @@
+.footer-wrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 0 4rem;
+    margin-bottom: 2rem;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -6,11 +15,10 @@
     background: var(--bg-color);
     color: var(--text-color);
     position: relative;
-    border: 2px solid var(--text-color);
-    padding: 0.6rem;
+    /* border: 2px solid var(--text-color); */
     height: 4rem;
-    width: 95vw;
-    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
 }
 
 .footer {
@@ -33,7 +41,7 @@
 }
 
 /* Skew */
-.fab {
+.foot-container .fab {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -66,9 +74,9 @@
     background: var(--text-color);
     color: var(--bg-color);
     border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
-    line-height: 3rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -79,4 +87,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-wrap {
+        padding: 0 1rem;
+    }
+
+    .footer-container {
+        padding: 0;
+    }
 }

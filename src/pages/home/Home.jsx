@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpider, faWaveHand } from "@fortawesome/free-solid-svg-icons";
 
 // style
 import "./Home.css";
 
 // images
 import profilePic from "../../assets/images/onis_full2.png";
+import FeaturedProject from "../../component/card/FeaturedProject";
 
 const Home = () => {
   return (
@@ -52,6 +51,7 @@ const Home = () => {
       </div>
       <div className="featured-projects">
         <h2>Featured Projects</h2>
+        <FeaturedProject />
         <p>
           Find out about my featured projects or check out{" "}
           <Link to="/projects"> my whole portfolio</Link>.

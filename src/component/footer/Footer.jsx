@@ -11,7 +11,7 @@ const Footer = () => {
     });
   };
   return (
-    <>
+    <div className="footer-wrap">
       <div className="footer-container">
         <footer className="footer">
           <div className="copyright">
@@ -35,12 +35,11 @@ const Footer = () => {
             </a>
           </div>
         </footer>
-
         <div className="back-to-top" onClick={scrollToTop}>
           <i className="fas fa-angle-up"></i>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

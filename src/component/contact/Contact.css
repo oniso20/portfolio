@@ -4,6 +4,21 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 50vw;
-    margin: auto;
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.contact-header {
+    font-size: 3rem;
+}
+
+.contact-text {
+    font-size: 1rem;
+    margin: 1rem 0 2rem 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        padding: 2rem 2rem;
+    }
 }

@@ -4,16 +4,15 @@
     align-items: center;
     flex-direction: row;
     height: 6rem;
-    flex-wrap: nowrap;
-    margin: 0 1rem;
-    padding: 0;
+    flex-wrap: no-wrap;
+    padding: 0 2rem;
 }
 
 .nav-bar .left-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: no-wrap;
 }
 
 .nav-bar .right-nav {
@@ -26,23 +25,12 @@
     margin-right: 0.6rem;
     color: var(--text-color);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .nav-bar a:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-}
-
-.nav-bar .toggle-button {
-    margin-right: 1.8rem;
-    color: var(--text-color);
-    background: var(--bg-color);
-    border: 1px solid var(--text-color);
-    padding: 4px 8px;
-    font-weight: bold;
-    font-size: 1rem;
-    cursor: pointer;
 }
 
 .nav-bar .logo-circle {
@@ -60,4 +48,13 @@
     margin-top: 4px;
     background-position: center;
     background-size: cover;
+}
+
+/* Media query for nav-bar padding in mobile devices */
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        padding: 0;
+        font-size: 1rem;
+    }
 }

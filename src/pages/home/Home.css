@@ -1,16 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-    margin: 0 4rem;
     flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 6rem;
 }
 
 .hero .hero-text,
 .hero .hero-image {
     flex-grow: 1;
-    flex-basis: 50%;
+    flex-basis: 45%;
 }
 
 .hero .hero-text {
@@ -20,13 +27,41 @@
     height: fit-content;
 }
 
+.hero .hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 0 0 1rem 0;
+}
+
+.hero .hero-text p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 0 0 2rem 0;
+}
+
 .hero .hero-image {
     display: flex;
     justify-content: center;
-    height: 35rem;
+    align-items: center;
 }
 
 .hero .hero-image img {
+    width: 70%;
+    height: 100%;
     object-fit: cover;
     background-position: center;
+}
+
+
+.home .featured-projects {
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
 }

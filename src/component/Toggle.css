@@ -1,0 +1,14 @@
+.toggle-effect p {
+    margin: 0;
+    padding: 0;
+}
+
+.toggle-effect .toggle-button {
+    color: var(--text-color);
+    background: var(--bg-color);
+    border: 1px solid var(--text-color);
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
