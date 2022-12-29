@@ -1,0 +1,101 @@
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mini-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    flex-wrap: nowrap;
+    margin: 1rem 1rem 0 1rem;
+    padding: 0;
+}
+
+.mini-nav a {
+    text-decoration: underline;
+    margin-right: 0.6rem;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.mini-nav a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    border-bottom: 1px dashed var(--text-color);
+}
+
+.container .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 95%;
+    margin: 1rem;
+}
+
+.container .element {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.container .content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+
+.other-projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.element .left {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    margin-left: 1rem;
+}
+
+.element .right {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.element p {
+    margin: 0.2rem;
+}
+
+.element h3 {
+    margin-top: 0;
+}
+
+.other-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}

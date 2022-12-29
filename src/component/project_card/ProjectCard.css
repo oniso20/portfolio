@@ -1,0 +1,97 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.mini-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 4rem;
+    flex-wrap: nowrap;
+    margin: 1rem;
+    padding: 0;
+}
+
+.mini-nav a {
+    text-decoration: underline;
+    margin-right: 0.6rem;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.mini-nav a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-style: normal;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0 4rem;
+    border-bottom: 1px dashed var(--text-color);
+}
+
+.overview .header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.overview .header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.other-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.other-projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.overview .overview-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.image-holder {
+    display: flex;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 95%;
+    margin: 1rem auto;
+    height: 15rem;
+}
+
+#otherProjects.overview .header {
+    display: flex;
+    justify-content: center;
+    margin: 0 4rem;
+    width: 90vw;
+}
+
+#otherProjects.overview {
+    border-bottom: none;
+}

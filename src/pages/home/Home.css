@@ -1,0 +1,32 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0 4rem;
+    flex-wrap: wrap;
+}
+
+.hero .hero-text,
+.hero .hero-image {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: fit-content;
+}
+
+.hero .hero-image {
+    display: flex;
+    justify-content: center;
+    height: 35rem;
+}
+
+.hero .hero-image img {
+    object-fit: cover;
+    background-position: center;
+}
