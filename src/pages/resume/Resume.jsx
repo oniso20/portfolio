@@ -6,14 +6,12 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <div className="resume">
-      <h1>Resume</h1>
+      <h2 className="resume-header">Resume</h2>
       <nav className="mini-nav">
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="https://github.com/oniso20">
-          Download a copy from Google Docs
-        </a>
+        <a href="https://github.com/oniso20">Download a copy</a>
       </nav>
       <div id="education" className="container">
         <div className="content">
@@ -131,17 +129,6 @@ const Resume = () => {
             <div className="right">
               <p>Cambridge, UK (Remote)</p>
               <p>Jan. 2018 — Oct. 2020</p>
-            </div>
-          </div>
-
-          <div className="element">
-            <div className="left">
-              <h3>University of Southern Denmark</h3>
-              <p>Life Cycle Engineering</p>
-            </div>
-            <div className="right">
-              <p>Odense, Denmark</p>
-              <p>Aug, 2019 - Sep, 2020</p>
             </div>
           </div>
         </div>

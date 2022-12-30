@@ -15,7 +15,6 @@
     background: var(--bg-color);
     color: var(--text-color);
     position: relative;
-    /* border: 2px solid var(--text-color); */
     height: 4rem;
     padding: 0 1rem;
     width: 100%;

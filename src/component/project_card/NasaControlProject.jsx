@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 // styles
 import "./ProjectCard.css";
 
-const ProjectCard = () => {
+const NasaControlProject = () => {
   return (
     <div className="project">
-      <h1>Project Name</h1>
+      <h1>NASA LAUNCH CONTROL</h1>
       <nav className="mini-nav">
         <a href="#overview">Overview</a>
         <a href="#process">Process</a>
@@ -109,4 +109,4 @@ const ProjectCard = () => {
   );
 };
 
-export default ProjectCard;
+export default NasaControlProject;

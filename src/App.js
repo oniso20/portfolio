@@ -12,7 +12,10 @@ import Footer from './component/footer/Footer';
 import Resume from './pages/resume/Resume';
 import NavBar from './component/navbar/NavBar';
 import Contact from './component/contact/Contact';
-import ProjectCard from './component/project_card/ProjectCard';
+import FactProject from './component/project_card/FactProject';
+import SpinderProject from './component/project_card/SpinderProject';
+import TasteProject from './component/project_card/TasteProject';
+import NasaControlProject from './component/project_card/NasaControlProject';
 
 function App() {
 
@@ -22,9 +25,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/project/:id" element={<Project />} />
+        <Route path="/project/:name" element={<Project />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/project-detail" element={<ProjectCard />} />
+        <Route path="/project-detail" element={<FactProject />} />
+        <Route path="/project/factchecker-game" element={<FactProject />} />
+        <Route path="/project/spinder-project" element={<SpinderProject />} />
+        <Route path="/project/taste-project" element={<TasteProject />} />
+        <Route path="/project/nasa-control-project" element={<NasaControlProject />} />
       </Routes>
       < Contact />
       < Footer />

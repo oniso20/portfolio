@@ -1,8 +1,14 @@
 .resume {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    padding: 0 4rem;
+}
+
+.resume h2.resume-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 2rem 0 0 0;
 }
 
 .mini-nav {
@@ -20,15 +26,15 @@
     text-decoration: underline;
     margin-right: 0.6rem;
     color: var(--text-color);
-    font-weight: bold;
-    font-size: 0.8rem;
-    font-style: italic;
+    font-size: 1rem;
+    text-transform: uppercase;
+
 }
 
 .mini-nav a:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    font-style: normal;
+    font-weight: bold;
 }
 
 .container {
@@ -37,6 +43,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: no-wrap;
+    padding: 1rem 0 0 0;
     border-bottom: 1px dashed var(--text-color);
 }
 
@@ -98,4 +105,10 @@
     align-items: center;
     flex-direction: column;
     width: 60%;
+}
+
+@media only screen and (max-width: 767px) {
+    .resume {
+        margin: 0 2rem;
+    }
 }

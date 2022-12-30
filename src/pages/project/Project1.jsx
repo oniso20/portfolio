@@ -5,7 +5,7 @@ import FactProject from "../../component/project_card/FactProject";
 // styles
 import "./Project.css";
 
-const Project = () => {
+const Project1 = () => {
   const { name } = useParams();
   return (
     <div>
@@ -14,4 +14,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Project1;

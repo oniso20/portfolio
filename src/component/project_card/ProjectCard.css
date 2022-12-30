@@ -1,42 +1,23 @@
 .project {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 2rem;
+    padding: 0 4rem;
 }
 
-.mini-nav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    height: 4rem;
-    flex-wrap: nowrap;
-    margin: 1rem;
-    padding: 0;
-}
+/* .mini-nav is styles in resume.css */
 
-.mini-nav a {
-    text-decoration: underline;
-    margin-right: 0.6rem;
-    color: var(--text-color);
+.project h2.header-project {
+    font-size: 2rem;
     font-weight: bold;
-    font-size: 0.8rem;
-    font-style: italic;
-}
-
-.mini-nav a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    font-style: normal;
+    color: var(--text-color);
+    margin: 2rem 0 0 0;
 }
 
 .overview {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-    margin: 0 4rem;
+    padding: 1rem 1rem;
     border-bottom: 1px dashed var(--text-color);
 }
 
@@ -51,6 +32,19 @@
     font-size: 2rem;
     font-weight: bold;
     color: var(--text-color);
+}
+
+.overview p {
+    font-size: 1rem;
+    margin: 1rem 0 2rem 0;
+    color: var(--text-color);
+}
+
+.overview h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 1rem;
 }
 
 .other-projects {
@@ -71,7 +65,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 50%;
 }
 
 .image-holder {
@@ -80,9 +74,15 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    width: 95%;
-    margin: 1rem auto;
-    height: 15rem;
+    min-width: 22rem;
+    margin: 2rem auto;
+    height: 20rem;
+    background-size: contain;
+}
+
+.image-holder img {
+    width: 100%;
+    height: 100%;
 }
 
 #otherProjects.overview .header {
@@ -94,4 +94,18 @@
 
 #otherProjects.overview {
     border-bottom: none;
+}
+
+@media screen and (max-width: 500px) {
+    .project {
+        padding: 0 2rem;
+    }
+
+    .overview {
+        flex-direction: column;
+    }
+
+    .overview .overview-details {
+        width: 100%;
+    }
 }

@@ -27,7 +27,7 @@ const NavBar = () => {
       <div className="left-nav">
         <Link to="/">
           <div className="logo-circle">
-            <img src={blackLogo} alt="Onis Logo" />
+            <img src={whiteLogo} alt="Onis Logo" />
           </div>
         </Link>
         <Link to="/projects">Projects</Link>
