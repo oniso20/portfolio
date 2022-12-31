@@ -95,7 +95,7 @@ const FactProject = () => {
         <div className="overview-details">
           <h3>Lessons Learnt</h3>
           <p>
-            One of the key lessons learned during the development of the
+            One of the key lessons learnt during the development of the
             FactChecker Game was the importance of deployment. Using AWS to
             deploy the server side and S3 bucket for the frontend was new for
             me, but proved to be a successful approach. I also had the

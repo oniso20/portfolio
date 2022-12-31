@@ -48,10 +48,11 @@ const SpinderProject = () => {
             <a href="https://www.mongodb.com/mern-stack">MERN stack</a> was used
             to build the application. The Spinder App was developed using a
             variety of technologies, including HTML, CSS, React, JavaScript,
-            MongoDB, and Node.js. These technologies were used to create a user
-            profile page, a dashboard for browsing and connecting with other
-            users, swipe functionality to get matched with another user, and a
-            chat feature for messaging.
+            MongoDB, and Node.js. These technologies were used to create a
+            login/sign-up functionality, an onboarding page, a user profile
+            page, a dashboard for browsing and connecting with other users,
+            swipe functionality to get matched with another user, and a chat
+            feature for messaging.
           </p>
         </div>
       </div>

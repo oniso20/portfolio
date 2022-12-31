@@ -66,12 +66,12 @@ const LearningTask = () => {
               ))}
           </div>
           <div className="group-btn">
-            <button className="btn">
-              <a href={project.github}>Repo</a>
-            </button>
-            <button className="btn">
-              <a href={project.demo}>Demo</a>
-            </button>
+            <a href={project.github}>
+              <button className="btn">Repo</button>
+            </a>
+            <a href={project.demo}>
+              <button className="btn">Demo</button>
+            </a>
           </div>
         </div>
       ))}
