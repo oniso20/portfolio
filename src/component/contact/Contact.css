@@ -8,6 +8,10 @@
     padding: 2rem 4rem;
 }
 
+.contact a {
+    color: var(--links-color);
+}
+
 .contact-header {
     font-size: 3rem;
 }

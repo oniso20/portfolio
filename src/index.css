@@ -12,6 +12,7 @@
   --text-color: black;
   --bg-white: rgb(221, 217, 217);
   --text-dark: #4a4949d5;
+  --links-color: #1e38ff;
 }
 
 .dark-mode {
@@ -19,6 +20,7 @@
   --text-color: white;
   --bg-white: #1f1f1fa2;
   --text-dark: #cccccc;
+  --links-color: #1e90ff;
 }
 
 body {
@@ -27,4 +29,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--bg-color);
   color: var(--text-color);
+}
+
+body a {
+  color: var(--links-color);
 }

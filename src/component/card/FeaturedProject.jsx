@@ -24,6 +24,7 @@ const FeaturedProject = () => {
     } else {
       return <p>Project not found</p>;
     }
+    window.scrollTo(0, 0);
   };
 
   return (

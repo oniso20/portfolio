@@ -67,7 +67,11 @@ const FactProject = () => {
             a variety of quiz topics and determining the best way to present the
             questions and answers to users. During the development process, the
             I implemented the game mechanics and user interface, as well as
-            integrating the necessary technologies.
+            integrating the necessary technologies. To ensure best practices, I
+            had one of my mentors{" "}
+            <a href="https://www.linkedin.com/in/cfonville/">Corbin Fonville</a>{" "}
+            review my code and provide feedback on how to improve the code
+            through out the development and deployment process.
           </p>
           <h3>Development</h3>
           <p>

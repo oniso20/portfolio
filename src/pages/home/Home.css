@@ -27,6 +27,14 @@
     height: fit-content;
 }
 
+.hero .hero-text a {
+    color: var(--links-color);
+}
+
+.featured-projects a {
+    color: var(--links-color);
+}
+
 .hero .hero-text h1 {
     font-size: 2.5rem;
     font-weight: bold;
