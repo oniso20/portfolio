@@ -107,6 +107,49 @@
     width: 60%;
 }
 
+.hidden {
+    display: none;
+}
+
+.text {
+    transition: all 0.7s ease-in;
+}
+
+.icons {
+    transition: all 0.7s ease-in;
+}
+
+.text h3 {
+    background-color: rgb(150, 149, 149);
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--text-color);
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow:
+        0.2px 0.3px 1.2px rgba(0, 0, 0, 0.019),
+        0.3px 0.7px 2.7px rgba(0, 0, 0, 0.028),
+        0.6px 1.1px 4.6px rgba(0, 0, 0, 0.034),
+        0.9px 1.7px 6.9px rgba(0, 0, 0, 0.04),
+        1.3px 2.4px 10px rgba(0, 0, 0, 0.044),
+        1.8px 3.4px 14.2px rgba(0, 0, 0, 0.049),
+        2.5px 4.8px 20.1px rgba(0, 0, 0, 0.054),
+        3.7px 6.9px 29.2px rgba(0, 0, 0, 0.059),
+        5.6px 10.7px 45px rgba(0, 0, 0, 0.064),
+        10px 19px 80px rgba(0, 0, 0, 0.07);
+}
+
+.text h3:hover,
+.text h3:focus,
+.text h3:active {
+    background-color: var(--bg-white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-2px);
+}
+
+
+
 @media only screen and (max-width: 767px) {
     .resume {
         margin: 0 2rem;

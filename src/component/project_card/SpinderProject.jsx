@@ -73,12 +73,13 @@ const SpinderProject = () => {
             myself. The team used a single git repository to plan and
             collaborate on the project, and worked to establish communication
             between the frontend and backend of the app. The initial design was
-            created of the app was created using Figma, and the team used the
-            design to create the frontend of the application. The backend was
-            created using MongoDB and Node.js, and the frontend was created
-            using React. For managing our tasks and planning our sprints, we
-            used Git Project. The team also used Microsoft Teams and Discord to
-            communicate and collaborate on the project.
+            created of the app using Figma, and the team used the design to
+            create the frontend of the application. The backend was created
+            using MongoDB and Node.js, and the frontend was created using React.
+            For managing our tasks and planning our sprints, we used{" "}
+            <a href="https://github.com/features/issues">GitHub Project</a>. The
+            team also used Microsoft Teams and Discord to communicate and
+            collaborate on the project.
           </p>
           <h3>Development</h3>
           <p>
@@ -98,13 +99,13 @@ const SpinderProject = () => {
         <div className="overview-details">
           <h3>Lessons Learnt</h3>
           <p>
-            One of the key lessons learned during the development of the Spinder
-            App was the importance of working as a team and using tools like git
-            to plan and manage the project. The team also gained experience in
-            building communication between the frontend and backend of the app,
-            which was a valuable skill to have. As the project owner, I also
-            learned the importance of delegating tasks and managing a team of
-            contributors.
+            One of the key lessons learnt during the development of the Spinder
+            App was the importance of working as a team and using collaborative
+            tools like GitHub to plan and manage the project. The team also
+            gained experience in building communication between the frontend and
+            backend of the app, which was a valuable skill to have. As the
+            project owner, I also learned the importance of delegating tasks and
+            managing a team of contributors.
           </p>
           <p>
             Overall, the Spinder App is a unique and innovative dating app that

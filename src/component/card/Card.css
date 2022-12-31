@@ -93,6 +93,15 @@
 
 }
 
+.icons .language-tag {
+    font-weight: bold;
+    text-align: left;
+    width: 13rem;
+    padding: 0.6rem 2rem;
+    margin: 1rem 1rem;
+    transition: all 0.3s ease-in;
+}
+
 @media screen and (max-width: 500px) {
     .cards {
         flex-direction: column;

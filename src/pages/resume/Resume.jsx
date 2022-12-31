@@ -1,9 +1,53 @@
 import React from "react";
+import { useState } from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// import mongodb icon from fontawesome
+
+import {
+  faNodeJs,
+  faJs,
+  faJsSquare,
+  faBootstrap,
+  faSass,
+  faReact,
+  faGithub,
+  faHtml5,
+  faCss3Alt,
+  faAws,
+  faFigma,
+  faAdobe,
+  faLinux,
+  faWindows,
+  faNpm,
+  faJira,
+  faSlack,
+  faTrello,
+} from "@fortawesome/free-brands-svg-icons";
+
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 // styles
 import "./Resume.css";
 
 const Resume = () => {
+  const [frontendOpen, setFrontendOpen] = useState(true);
+  const [backendOpen, setBackendOpen] = useState(true);
+  const [othersOpen, setOthersOpen] = useState(true);
+
+  function handleFrontendClick() {
+    setFrontendOpen(!frontendOpen);
+  }
+
+  function handleBackendClick() {
+    setBackendOpen(!backendOpen);
+  }
+
+  function handleOthersClick() {
+    setOthersOpen(!othersOpen);
+  }
+
   return (
     <div className="resume">
       <h2 className="resume-header">Resume</h2>
@@ -136,22 +180,76 @@ const Resume = () => {
       <div id="skills" className="container">
         <div className="content">
           <h2>Skills</h2>
+          <p>Click to view skills below</p>
           <div className="element">
             <div className="left">
               <div className="text">
-                <h3>Frontend</h3>
-                <div className="icons">Icons</div>
+                <h3 onClick={handleFrontendClick}>Frontend</h3>
+                <div className={`icons ${frontendOpen ? "" : "hidden"}`}>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faHtml5} /> HTML5
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faCss3Alt} /> CSS3
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faJsSquare} /> JavaScript
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faReact} /> React
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faSass} /> Sass
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
+                  </div>
+                </div>
               </div>
               <div className="text">
-                <h3>Backend & Databases</h3>
-                <div className="icons">Icons</div>
+                <h3 onClick={handleBackendClick}>Backend & Databases</h3>
+                <div className={`icons ${backendOpen ? "" : "hidden"}`}>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faNodeJs} /> Node.js
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faJs} /> Express.js
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faDatabase} /> MongoDB
+                  </div>
+                </div>
               </div>
               <div className="text">
-                <h3>Others</h3>
-                <div className="icons">Icons</div>
+                <h3 onClick={handleOthersClick}>Others</h3>
+                <div className={`icons ${othersOpen ? "" : "hidden"}`}>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faFigma} /> Figma
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faGithub} /> GitHub
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faJira} /> Jira
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faSlack} /> Slack
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faTrello} /> Trello
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faAws} /> AWS
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faNpm} /> NPM
+                  </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faLinux} /> Linux
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="right"></div>
           </div>
         </div>
       </div>
