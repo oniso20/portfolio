@@ -86,8 +86,9 @@ const FactProject = () => {
             deployed using AWS serverless functions and the database is deployed
             using MongoDB Atlas. The first version of the front-end is deployed
             using domain name from `namecheap.com`, AWS S3 bucket, and
-            CloudFront - `www.factchecker.pro`. A second version of the
-            client-side was deployed on Netlify - `www.factchecker.pro` due to
+            CloudFront - <a href="www.factchecker.pro">`www.factchecker.pro`</a>
+            . A second version of the client-side was deployed on Netlify -
+            <a href="www.factcheckerpro.com">`www.factcheckerpro.com`</a> due to
             SSL issues with my original domain from `namecheap.com`.
           </p>
         </div>
