@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.97db75fc.css",
-    "main.js": "/static/js/main.eaf012a0.js",
+    "main.css": "/static/css/main.4001d192.css",
+    "main.js": "/static/js/main.8189b006.js",
     "static/media/spinder-home.jpg": "/static/media/spinder-home.f0b1e0c7be0ba9822991.jpg",
     "static/media/spinder-dashboard.jpg": "/static/media/spinder-dashboard.52e1cb254750e787be9d.jpg",
     "static/media/onis_full2.png": "/static/media/onis_full2.c400c43e21dc4fb692a3.png",
@@ -13,11 +13,11 @@
     "static/media/Whitetext-logo@4x.png": "/static/media/Whitetext-logo@4x.51e27bc7579a69b0290a.png",
     "static/media/Blacktext-logo@4x.png": "/static/media/Blacktext-logo@4x.42ae51099c19b5dbebe5.png",
     "index.html": "/index.html",
-    "main.97db75fc.css.map": "/static/css/main.97db75fc.css.map",
-    "main.eaf012a0.js.map": "/static/js/main.eaf012a0.js.map"
+    "main.4001d192.css.map": "/static/css/main.4001d192.css.map",
+    "main.8189b006.js.map": "/static/js/main.8189b006.js.map"
   },
   "entrypoints": [
-    "static/css/main.97db75fc.css",
-    "static/js/main.eaf012a0.js"
+    "static/css/main.4001d192.css",
+    "static/js/main.8189b006.js"
   ]
 }
