@@ -220,6 +220,9 @@ const Resume = () => {
                   <div className="language-tag">
                     <FontAwesomeIcon icon={faDatabase} /> MongoDB
                   </div>
+                  <div className="language-tag">
+                    <FontAwesomeIcon icon={faDatabase} /> Firebase
+                  </div>
                 </div>
               </div>
               <div className="text">
@@ -251,6 +254,53 @@ const Resume = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="hubbies" className="container">
+        <div className="content">
+          <h2>Meet Me</h2>
+          <div className="element">
+            <p>
+              I love to read books, watch movies and play video games. I also
+              enjoy watching football and UFC.
+            </p>
+            <div className="hubbies">
+              <p>
+                My Favorite games are FIFA, UFC, NFC, God of War. I rank in the
+                top 6% of FIFA FUT players globally and have finished God of War
+                twice.
+              </p>
+              <p>
+                My favorite UFC fighters in no particular order are; <br />{" "}
+                <a href="https://www.espn.com/mma/fighter/_/id/4285679/israel-adesanya">
+                  Isreal Adesanya
+                </a>{" "}
+                - for his fluidity and skills, <br />{" "}
+                <a href="https://www.espn.com/mma/fighter/_/id/3088812/kamaru-usman">
+                  Kamoru Usman
+                </a>{" "}
+                - for his sheer strength, and <br />{" "}
+                <a href="https://www.espn.com/mma/fighter/_/id/2611557/khabibnurmagomedov">
+                  Khabib Nurmagomedov
+                </a>{" "}
+                - for his wrestling and strong-will.
+              </p>
+              <p>
+                I am a big fan of{" "}
+                <a href="https://www.arsenal.com/">Arsenal FC</a> and never miss
+                a live match.
+              </p>
+              <p>
+                I also enjoy music and my favorite instrument is the drum. I
+                started playing the drums at the age of 10 and played
+                consistently for about 10 years. I don't play as much anymore
+                but I still enjoy it.{" "}
+                <a href="https://youtu.be/Ta_9kJv4ML0">Here</a> is a collection
+                of some amazing beats I love to listen to.
+              </p>
+              <p>This one is a secret &#128521; ...I can't say no to cake!</p>
             </div>
           </div>
         </div>
