@@ -8,7 +8,7 @@ export const useProject = () => {
         { name: 'FactChecker Game', description: 'A Wordle spin-off that asks users to solve a daily fact based challenge. Users must then pick the top five answers and have six chances to make their guesses.', image: factImage },
         { name: 'Spinder', description: 'As part of a team of three, we built a social media app that matches people based on their music tastes and moods.', image: 'https://via.placeholder.com/300x200' },
         { name: 'TasteIT', description: 'This project is simple and introduced me to various concepts I rely on when working on React projects and simple CRUD operations', image: 'https://via.placeholder.com/300x200' },
-        { name: 'NASA Launch Control', description: 'NASA planet explorer mission control dashboard for scheduling rocket launches, aborting rocket launches, checking habitable planets in space. This project was my first introduction to Node.js and backend development', image: 'https://via.placeholder.com/300x200' },
+        { name: 'Portfolio Project', description: 'This personal website is a showcase of my skills and experience as a software developer. From my notable projects to my resume and contact information, this site serves as a comprehensive overview of my projects, capabilities and interests.', image: 'https://via.placeholder.com/300x200' },
     ]);
 
     const [learningProjects, setLearningProjects] = useState([
@@ -21,6 +21,7 @@ export const useProject = () => {
     const [personalProjects, setPersonalProjects] = useState([
         { name: 'ISS Tracker', description: 'I hope to visit a different planet one day and in this project I built a very basic web application for tracking the international space satellite as it goes around the world.', image: 'https://via.placeholder.com/300x200', demo: 'https://oniso20.github.io/IntSpaceSatelliteTracker/', github: 'https://github.com/oniso20/IntSpaceSatelliteTracker', tech: 'JavaScript,HTML5,CSS3,Github' },
         { name: 'Movie Site', description: 'I enjoy movie nights with my family and built a web app to view recent movies, their overview and rating using data from the TMDB API.', image: 'https://via.placeholder.com/300x200', demo: 'https://oniso20.github.io/movieboard/', github: 'https://github.com/oniso20/movieboard', tech: 'JavaScript,HTML5,CSS3,Github' },
+        // { name: 'NASA Launch Control', description: 'NASA planet explorer mission control dashboard for scheduling rocket launches, aborting rocket launches, checking habitable planets in space. This project was my first introduction to Node.js and backend development', image: 'https://via.placeholder.com/300x200', demo: 'https://github.com/oniso20/NASA-spaceship-launch-control', github: 'https://github.com/oniso20/NASA-spaceship-launch-control', tech: 'Node,JavaScript,EJS,Github' },
     ]);
 
     return {
