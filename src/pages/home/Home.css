@@ -52,10 +52,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .hero .hero-image img {
-    width: 70%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     background-position: center;

@@ -55,7 +55,9 @@ const Resume = () => {
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="https://github.com/oniso20">Download a copy</a>
+        <a className="blink" href="https://github.com/oniso20">
+          Download a copy
+        </a>
       </nav>
       <div id="education" className="container">
         <div className="content">

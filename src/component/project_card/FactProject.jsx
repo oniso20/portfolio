@@ -18,8 +18,12 @@ const FactProject = () => {
         <a href="#overview">Overview</a>
         <a href="#process">Process</a>
         <a href="#result">Result</a>
-        <a href="https://github.com/oniso20/factle-game">Repo</a>
-        <a href="http://www.factchecker.pro/">Live Site</a>
+        <a className="blink" href="https://github.com/oniso20/factle-game">
+          Repo
+        </a>
+        <a className="blink" href="https://factcheckerpro.com/">
+          Live Site
+        </a>
       </nav>
       <div className="image-holder">
         <img src={factTop} alt="Image of project" />
@@ -80,8 +84,11 @@ const FactProject = () => {
             built using React and styled with CSS. The back-end was built using
             Node.js and Express and uses MongoDB as the database. The server is
             deployed using AWS serverless functions and the database is deployed
-            using MongoDB Atlas. The front-end is deployed using AWS S3 and
-            CloudFront.
+            using MongoDB Atlas. The first version of the front-end is deployed
+            using domain name from `namecheap.com`, AWS S3 bucket, and
+            CloudFront - `www.factchecker.pro`. A second version of the
+            client-side was deployed on Netlify - `www.factchecker.pro` due to
+            SSL issues with my original domain from `namecheap.com`.
           </p>
         </div>
       </div>

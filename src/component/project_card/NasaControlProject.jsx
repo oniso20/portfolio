@@ -12,8 +12,12 @@ const NasaControlProject = () => {
         <a href="#overview">Overview</a>
         <a href="#process">Process</a>
         <a href="#result">Result</a>
-        <a href="https://github.com/oniso20">Repo</a>
-        <a href="#">Live Site</a>
+        <a className="blink" href="https://github.com/oniso20">
+          Repo
+        </a>
+        <a className="blink" href="#">
+          Live Site
+        </a>
       </nav>
       <div className="image-holder">
         <img src="#" alt="Image of project" />
