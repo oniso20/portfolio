@@ -102,10 +102,37 @@ const Resume = () => {
                   responsive web applications using best practices.
                 </li>
                 <li>
-                  Built semantically structured full-stack web applications
+                  Developed and maintained semantically structured full-stack
+                  web applications using technologies such as React.js, Node.js,
+                  Express and MongoDB
                 </li>
                 <li>
-                  Applied agile methodologies like SCRUM for project management
+                  Led the development of several notable projects, including:
+                  <ul>
+                    <li>
+                      FactChecker Game, a spin-off of the popular game Wordle,
+                      that allows users to solve a daily fact-based challenge.
+                      Built with React.js, Node.js, and MongoDB, with a
+                      serverless backend deployed on AWS.
+                    </li>
+                    <li>
+                      Spinder, a social media app that matches people based on
+                      their music tastes and moods. Built as part of a team of
+                      three, using React.js, Node.js, Express, and MongoDB.
+                      Backend was hosted on Cyclic and project was planned on
+                      Github.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Utilized agile methodologies, such as SCRUM, to manage
+                  projects and ensure timely delivery.
+                </li>
+                <li>
+                  Contributed to the development of other projects such as
+                  Trivia Game, Speed Game, International Space Satellite Tracker
+                  and Los Angeles StarGazers Society APOD web app using NASA API
+                  integration.
                 </li>
               </ul>
             </div>
