@@ -17,9 +17,7 @@ import {
   faCss3Alt,
   faAws,
   faFigma,
-  faAdobe,
   faLinux,
-  faWindows,
   faNpm,
   faJira,
   faSlack,
@@ -111,7 +109,7 @@ const Resume = () => {
                 </li>
                 <li>
                   Led the development of several notable projects, including:
-                  <ul>
+                  <ul className="sub">
                     <li>
                       FactChecker Game, a spin-off of the popular game Wordle,
                       that allows users to solve a daily fact-based challenge.
@@ -217,7 +215,7 @@ const Resume = () => {
             <div className="left">
               <div className="text">
                 <h3 onClick={handleFrontendClick}>Frontend</h3>
-                <div className={`icons ${frontendOpen ? "" : "hidden"}`}>
+                <div className={`icons ${!frontendOpen ? "" : "hidden"}`}>
                   <div className="language-tag">
                     <FontAwesomeIcon icon={faHtml5} /> HTML5
                   </div>
@@ -240,7 +238,7 @@ const Resume = () => {
               </div>
               <div className="text">
                 <h3 onClick={handleBackendClick}>Backend & Databases</h3>
-                <div className={`icons ${backendOpen ? "" : "hidden"}`}>
+                <div className={`icons ${!backendOpen ? "" : "hidden"}`}>
                   <div className="language-tag">
                     <FontAwesomeIcon icon={faNodeJs} /> Node.js
                   </div>
@@ -257,7 +255,7 @@ const Resume = () => {
               </div>
               <div className="text">
                 <h3 onClick={handleOthersClick}>Others</h3>
-                <div className={`icons ${othersOpen ? "" : "hidden"}`}>
+                <div className={`icons ${!othersOpen ? "" : "hidden"}`}>
                   <div className="language-tag">
                     <FontAwesomeIcon icon={faFigma} /> Figma
                   </div>

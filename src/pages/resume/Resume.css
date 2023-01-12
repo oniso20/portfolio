@@ -17,6 +17,17 @@
     margin: 2rem 0 0 0;
 }
 
+.resume ul li,
+.resume .left p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+}
+
+.resume .left ul.sub {
+    padding-left: 1.5rem;
+}
+
 .mini-nav {
     display: flex;
     justify-content: flex-start;
