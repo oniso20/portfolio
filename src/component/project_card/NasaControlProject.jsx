@@ -50,9 +50,8 @@ const NasaControlProject = () => {
           <p>
             The Portfolio Project was developed using HTML, CSS, React.js. The
             first version of the front-end is deployed using domain name from
-            `namecheap.com`, AWS S3 bucket, Route53, and CloudFront -{" "}
-            <a href="www.onisemem.com">`www.onisemem.com`</a>. A second version
-            of the client-side was deployed on Netlify -
+            `namecheap.com`, AWS S3 bucket, Route53, and CloudFront. A second
+            version of the client-side was deployed on Netlify -
             <a href="www.onis-emem.com">`www.onis-emem.com`</a> due to SSL
             issues with my original domain from `namecheap.com`.
           </p>
