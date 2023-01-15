@@ -4,6 +4,10 @@ I am a software developer with experience in building modern, responsive web app
 
 Here, you'll find a collection of my notable projects, each showcasing my capabilities and interests as a developer. My portfolio includes:
 
+### Live site
+
+You can checkout the live site - https://onis-emem.com/
+
 ## FactChecker Game
 
 A Wordle spin-off that asks users to solve a daily fact based challenge. Users must then pick the top five answers and have six chances to make their guesses. I used React.js, Node.Js, The backend is deployed on serverless, AWS, database on MongoDB.
