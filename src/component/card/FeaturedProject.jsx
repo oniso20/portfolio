@@ -19,8 +19,8 @@ const FeaturedProject = () => {
       navigate("/project/spinder-project");
     } else if (name === "TasteIT") {
       navigate("/project/taste-project");
-    } else if (name === "NASA Launch Control") {
-      navigate("/project/nasa-control-project");
+    } else if (name === "Portfolio") {
+      navigate("/project/portfolio-project");
     } else {
       return <p>Project not found</p>;
     }

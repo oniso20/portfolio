@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 // styles
 import "./ProjectCard.css";
@@ -9,7 +8,7 @@ import home from "../../assets/images/portfolio-images/home.png";
 import projects from "../../assets/images/portfolio-images/projects.png";
 import resume from "../../assets/images/portfolio-images/resume.png";
 
-const NasaControlProject = () => {
+const PortfolioProject = () => {
   return (
     <div className="project">
       <h1>Portfolio Project</h1>
@@ -25,7 +24,7 @@ const NasaControlProject = () => {
         </a>
       </nav>
       <div className="image-holder">
-        <img src={home} alt="Image of project" />
+        <img src={home} alt="" />
       </div>
       <div id="overview" className="overview">
         <div className="header">
@@ -58,7 +57,7 @@ const NasaControlProject = () => {
         </div>
       </div>
       <div className="image-holder">
-        <img src={projects} alt="Image of project" />
+        <img src={projects} alt="" />
       </div>
       <div id="process" className="overview">
         <div className="header">
@@ -92,7 +91,7 @@ const NasaControlProject = () => {
         </div>
       </div>
       <div className="image-holder">
-        <img src={resume} alt="Image of project" />
+        <img src={resume} alt="" />
       </div>
       <div id="result" className="overview">
         <div className="header">
@@ -132,4 +131,4 @@ const NasaControlProject = () => {
   );
 };
 
-export default NasaControlProject;
+export default PortfolioProject;

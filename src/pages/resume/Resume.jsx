@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -91,49 +92,67 @@ const Resume = () => {
       </div>
       <div id="experience" className="container">
         <div className="content">
-          <h2>Experience</h2>
+          <h2>PROJECTS & Experience</h2>
+          <div className="element">
+            <div className="left">
+              <p>
+                Developed and maintained semantically structured full-stack web
+                applications using technologies such as React.js, Node.js,
+                Express and MongoDB.
+              </p>
+              <p>Led the development of several notable projects, including;</p>
+              <ul style={{ listStyleType: "circle" }}>
+                <li>
+                  <a href="https://onis-emem.com/project/factchecker-game">
+                    FactChecker Game
+                  </a>
+                  , a spin-off of the popular game Wordle, which allows users to
+                  solve a daily fact-based challenge. Built with React.js,
+                  Node.js, and MongoDB, with a serverless backend deployed on
+                  AWS.
+                </li>
+                <li>
+                  <a href="https://onis-emem.com/project/spinder-project">
+                    Spinder
+                  </a>
+                  , a social media app that matches people based on their music
+                  tastes and moods. Built as part of a team of three, using
+                  React.js, Node.js, Express, and MongoDB. The backend was
+                  hosted on Cyclic and the project was planned on Github (Still
+                  in Development).
+                </li>
+              </ul>
+              <p>
+                Utilised agile methodologies, such as SCRUM, to manage projects
+                and ensure timely delivery. Developed other personal projects
+                such as Speed Game, International Space Satellite Tracker and{" "}
+                <Link to="/projects">more</Link>.
+              </p>
+            </div>
+            <div className="right">
+              <p>KEY PROJECTS</p>
+              <p>Dec. 2021 — Present</p>
+            </div>
+          </div>
           <div className="element">
             <div className="left">
               <h3>100Devs</h3>
               <p>Web development agency</p>
               <h5>Software Developer</h5>
+              <p>
+                Collaborated with a team of developers to maintain, design and
+                build features for modern web applications including;
+              </p>
               <ul>
                 <li>
-                  Collaborated with a team of developers to build modern and
-                  responsive web applications using best practices.
+                  Dado food (Nigeria) -{" "}
+                  <a href="https://dadofood.disha.page/?fbclid=PAAaa89RIFMMT1T45cAyFGfgr9vfMBNYnyTEIe7LrZCfKMjtJRCf1TbnC6WGE">
+                    https://dado.ng/
+                  </a>
                 </li>
                 <li>
-                  Developed and maintained semantically structured full-stack
-                  web applications using technologies such as React.js, Node.js,
-                  Express and MongoDB
-                </li>
-                <li>
-                  Led the development of several notable projects, including:
-                  <ul className="sub">
-                    <li>
-                      FactChecker Game, a spin-off of the popular game Wordle,
-                      that allows users to solve a daily fact-based challenge.
-                      Built with React.js, Node.js, and MongoDB, with a
-                      serverless backend deployed on AWS.
-                    </li>
-                    <li>
-                      Spinder, a social media app that matches people based on
-                      their music tastes and moods. Built as part of a team of
-                      three, using React.js, Node.js, Express, and MongoDB.
-                      Backend was hosted on Cyclic and project was planned on
-                      Github.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Utilized agile methodologies, such as SCRUM, to manage
-                  projects and ensure timely delivery.
-                </li>
-                <li>
-                  Contributed to the development of other projects such as
-                  Trivia Game, Speed Game, International Space Satellite Tracker
-                  and Los Angeles StarGazers Society APOD web app using NASA API
-                  integration.
+                  Skill Quest (Minnesota, USA) -{" "}
+                  <a href="https://skillquest.io/">https://skillquest.io/</a>
                 </li>
               </ul>
             </div>

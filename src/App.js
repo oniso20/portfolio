@@ -15,7 +15,7 @@ import Contact from './component/contact/Contact';
 import FactProject from './component/project_card/FactProject';
 import SpinderProject from './component/project_card/SpinderProject';
 import TasteProject from './component/project_card/TasteProject';
-import NasaControlProject from './component/project_card/NasaControlProject';
+import PortfolioProject from './component/project_card/PortfolioProject';
 
 function App() {
 
@@ -31,7 +31,7 @@ function App() {
         <Route path="/project/factchecker-game" element={<FactProject />} />
         <Route path="/project/spinder-project" element={<SpinderProject />} />
         <Route path="/project/taste-project" element={<TasteProject />} />
-        <Route path="/project/nasa-control-project" element={<NasaControlProject />} />
+        <Route path="/project/portfolio-project" element={<PortfolioProject />} />
       </Routes>
       < Contact />
       < Footer />

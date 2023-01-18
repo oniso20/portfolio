@@ -16,7 +16,7 @@
 }
 
 .dark-mode {
-  --bg-color: black;
+  --bg-color: rgb(28, 27, 27);
   --text-color: white;
   --bg-white: #1f1f1fa2;
   --text-dark: #cccccc;
