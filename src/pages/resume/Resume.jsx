@@ -55,7 +55,7 @@ const Resume = () => {
         <a href="#skills">Skills</a>
         <a
           className="blink"
-          href="https://docs.google.com/document/d/1pVck1lLRfkx8bA1-Nph4jY2X1ow0MPy6/edit?usp=sharing&ouid=105918699478954208570&rtpof=true&sd=true"
+          href="https://docs.google.com/document/d/144uEx5sTLf9MQfAjtuxsrzfaq1aMavgo/edit?usp=sharing&ouid=105918699478954208570&rtpof=true&sd=true"
         >
           Download a copy from Google Docs
         </a>
