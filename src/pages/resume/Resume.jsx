@@ -174,12 +174,12 @@ const Resume = () => {
                 <li>
                   Proactively automating transaction processing and reducing
                   manual and repetitive work. This increased the efficiency of
-                  the team by 80%.
+                  the team by 20%.
                 </li>
                 <li>
                   Translating customer needs into plans and supporting these
                   plans with analysis. This drove improvements to Wise product
-                  and work processes to become over 300% more efficient.
+                  and work processes to become over 30% more efficient.
                 </li>
                 <li>Resolving customer issues related to missing payments</li>
                 <li>
