@@ -190,7 +190,7 @@ const Resume = () => {
             </div>
             <div className="right">
               <p>Tallinn, Estonia</p>
-              <p>Nov. 2020 — Sept. 2022</p>
+              <p>Nov. 2021 — Sept. 2022</p>
             </div>
           </div>
           <div className="element">
