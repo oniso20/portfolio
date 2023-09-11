@@ -17,12 +17,7 @@ const Home = () => {
             Hello &#9996; <br /> I'm Onis Emem
           </h1>
           <p>
-            A software developer with a strong emphasis on frontend development
-            and user experience, I am skilled in creating{" "}
-            <a href="https://responsibleweb.app/">
-              responsive web applications
-            </a>
-            {"."}
+            An accomplished software engineer and project manager, I bring a fusion of technical proficiency and leadership capabilities to the table. At Laferla Insurance, I've transcended traditional engineering roles, handling not just development but also the intricate aspects of project management. From laying out roadmaps to interfacing with directors, my role has always been about steering projects with a vision.
           </p>
           <p>
             I received my formal training at the
@@ -30,14 +25,13 @@ const Home = () => {
             gained a strong foundation in both frontend and backend development.
           </p>
           <p>
-            With my skills and knowledge, I have a proven track record of
-            delivering high-quality, user-friendly web applications that meet
-            the needs of my clients.
+Over time, I've seamlessly transitioned into roles demanding strategic planning, team collaboration tools setup, and process optimization. At Laferla, I personally initiated the integration of tools like Jira, Confluence, GitHub, and Slack, thereby streamlining our software development lifecycle and fostering enhanced team communication.
+</p>
+          <p>
+            While my roots are in development, I worked for many years as a PM in the construction industry before relocating to Europe and switching careers to Tech. Today, my aspirations lean towards leadership roles in software development project management and other engineering managerial capacities. I am driven by the desire to not just develop, but to lead, strategize, and deliver projects that resonate on a larger scale.
           </p>
           <p>
-            I am currently available to work from both Helsinki and Estonia, and
-            am always looking for exciting new opportunities to grow and develop
-            my skills as a developer.
+            I am currently available to work from both Helsinki and Estonia, I am eager to explore avenues where I can channel my combined engineering and managerial expertise. For a deeper dive into my professional journey, I invite you to explore my GitHub and LinkedIn profiles below.
           </p>
           <p>
             You can find my <a href="https://github.com/oniso20">GitHub</a> and{" "}
